@@ -37,7 +37,7 @@ class Interface {
                     System.out.println("Invalid choice. Please try again.");
                     break;
             }
-            scanner.close();
+            
         }
     }
     

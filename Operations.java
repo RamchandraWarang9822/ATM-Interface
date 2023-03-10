@@ -76,7 +76,6 @@ class Operations {
 
         updateRecord("Withdrawal", amount, status);
         status = null;
-        scanner.close();
     }
 
     void depositMoney() {
@@ -89,7 +88,6 @@ class Operations {
 
         updateRecord("Deposit", amount, status = "Success");
         status = null;
-        scanner.close();
     }
 
     void transferMoney() {
@@ -108,7 +106,6 @@ class Operations {
 
         updateRecord("Transfer", amount, "Other", status);
         status = null;
-        scanner.close();
     }
 
     void transactionHistory() {
